@@ -1,5 +1,6 @@
-# Bivins-For-Senate
-The Official Repository of the Bivins CoB Senate Campaign
+## Bivins For Senate
+
+# The Official Repository of the Bivins CoB Senate Campaign
 
 Dear Students, Teachers, and members of the University of Louisville Community. My name is Will Bivins and I am happy to present to you the Github Repository for my Senate Campaign.
 
