@@ -18,11 +18,12 @@ p{
 }
 .banner{
     align-items: center;
-    margin-right: 0.15;
     height: auto;
-    width: 75%;
+    width: auto;
     align-items: center;
     background-color: #AD0000;
+    padding: 5%;
+    padding-left: 15%;
 
 }    
 .preamble{
@@ -42,20 +43,7 @@ p{
 .menu-button{
 
 }
-.preamble-button{
-background-color: #AD0000;
-border-color: black;
-border-style: solid;
-width: 200px;
-height: 50px;
-font-size: large;
-font-weight: 550;
-border-width: 4px;
-border-radius: 5px;
-}
-.about-button{
 
-}
 .campaign-values-block{
     width: auto;
 }
@@ -69,7 +57,16 @@ color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 35px;
   transition-duration: 0.4s;
   cursor: pointer;
+  margin-bottom: 2.75%;
+  margin-right: 2.75%;
+}
+.buttons{
+    align-items: center;
+}
+.cover-image{
+    width: ;
+    height: auto;
 }
