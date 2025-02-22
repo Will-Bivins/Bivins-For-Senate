@@ -1,95 +1,115 @@
-head{
-    background-color: #ea1d1d;
-    align-items: center;
-}
-.header{
-align-items: center;
-}
-body{
-    background-color: #f8f6f2 ;
-}
-h1{
-color: #AD0000;
-font-family: 'Times New Roman', Times, serif;
-
-}
-p{
+/* General Styles */
+body {
+    background-color: #f8f6f2;
     font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Header & Banner */
+  header {
+    background-color: #ea1d1d;
+  }
+  
+  .header {
+    /* If you intend to use align-items, consider adding display: flex; */
+    align-items: center;
+  }
+  
+  .banner {
+    position: relative;
+    /* height and width are auto by default, so they can be omitted if not needed */
+  }
+  
+  /* Banner Container & Image */
+  .banner-container {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Button Overlay */
+  .button-overlay {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    gap: 10px;
+  }
+  
+  /* Typography */
+  h1 {
+    color: #AD0000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  p {
     text-align: left;
     font-size: medium;
-}
-.banner{
-    align-items: center;
-    position: relative;
-    height: auto;
-    width: auto;
-
-}    
-.preamble{
-    width: auto;
-    background-color: #d70b0b9d;
-    margin: 2%;
-    padding-left: 1.75%;
-    padding-bottom: 1.75%;
-    padding-top: 1.75%;
-    padding-right: 1.75%;
-    border-radius: 15%;
-}
-.cover-image{
-   align-items: middle;
-}
-.center {
+  }
+  
+  /* Utility Classes */
+  .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-
-.campaign-values-block{
+  }
+  
+  /* Preamble */
+  .preamble {
+    background-color: #d70b0b9d;
+    margin: 2%;
+    padding: 1.75%;
+    border-radius: 15%;
+  }
+  
+  /* Campaign Values Block */
+  .campaign-values-block {
+    /* width: auto; is default; included only if you plan on adding more styling */
     width: auto;
-}
-.p-button{
-color: white;
-}
-.nav-button{
-border: none;
-  color: #AD0000;
-  padding: 12px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 35px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  margin-bottom: 2.75%;
-  margin-right: 2.75%;;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-.nav-buttonhover:hover{
+  }
+  
+  /* P Button */
+  .p-button {
+    color: white;
+  }
+  
+  /* Navigation Buttons */
+  .nav-button {
+    border: 2px solid #AD0000;
+    color: #AD0000;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    transition: background-color 0.4s, color 0.4s, border 0.4s;
+    margin-right: 1.75%;
+    cursor: pointer;
+    width: fit-content;
+    white-space: nowrap;
+  }
+  
+  .nav-buttonhover:hover {
     background-color: #AD0000;
     color: white;
-}
-.buttons{
-    align-items: center;
+    border: 2px solid white;
+  }
+  
+  /* Buttons Container */
+  .buttons {
     margin-left: auto;
     margin-right: auto;
-}
-.cover-image{
-    width: 85%;
-    height: auto;
-}
-.instagram-media{
-    margin-left: 75%;
-    offset: 20%;
-}
-.button-overlay {
-    position: absolute;
-    top: 10px; 
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 10px; 
   }
- 
+  
+  /* Instagram Media */
+  .instagram-media {
+    margin-left: 75%;
+    /* Removed invalid 'offset' property */
+  }
+  
