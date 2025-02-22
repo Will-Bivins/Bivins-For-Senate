@@ -16,7 +16,3 @@ While I am a business student, I strongly believe in the use of technology for p
 # Campaign Values Constituent
 
 [Instagram (@bivins4senate)](https://www.instagram.com/bivins4senate?igsh=cDlpdWQ3b3d5dW5m&utm_source=qr)
-
-[https://www.instagram.com/bivins4senate?igsh=cDlpdWQ3b3d5dW5m&utm_source=qr](https://www.instagram.com/bivins4senate?igsh=cDlpdWQ3b3d5dW5m&utm_source=qr) 
-
-https://www.instagram.com/bivins4senate?igsh=cDlpdWQ3b3d5dW5m&utm_source=qr

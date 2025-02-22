@@ -1,7 +1,9 @@
 head{
-    padding: 5%;
-    background-color: #ea1d1dd4;
-    opacity: 0.5;
+    background-color: #ea1d1d;
+    align-items: center;
+}
+.header{
+align-items: center;
 }
 body{
     background-color: #f8f6f2 ;
@@ -14,17 +16,13 @@ font-family: 'Times New Roman', Times, serif;
 p{
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
-    font-size: small;
-
+    font-size: medium;
 }
 .banner{
     align-items: center;
+    position: relative;
     height: auto;
     width: auto;
-    align-items: center;
-    background-color: #f44747a6;
-    padding: 5%;
-    padding-left: 15%;
 
 }    
 .preamble{
@@ -36,14 +34,17 @@ p{
     padding-top: 1.75%;
     padding-right: 1.75%;
     border-radius: 15%;
-
 }
 .cover-image{
-   
+   align-items: middle;
 }
-.menu-button{
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
-}
 
 .campaign-values-block{
     width: auto;
@@ -72,6 +73,8 @@ border: none;
 }
 .buttons{
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .cover-image{
     width: 85%;
@@ -81,3 +84,12 @@ border: none;
     margin-left: 75%;
     offset: 20%;
 }
+.button-overlay {
+    position: absolute;
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px; 
+  }
+ 
