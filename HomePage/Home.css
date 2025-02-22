@@ -1,6 +1,7 @@
 head{
     padding: 5%;
-    background-color: #ad0000;
+    background-color: #ea1d1dd4;
+    opacity: 0.5;
 }
 body{
     background-color: #f8f6f2 ;
@@ -21,7 +22,7 @@ p{
     height: auto;
     width: auto;
     align-items: center;
-    background-color: #AD0000;
+    background-color: #f44747a6;
     padding: 5%;
     padding-left: 15%;
 
@@ -51,7 +52,7 @@ p{
 color: white;
 }
 .nav-button{
-    border: none;
+border: none;
   color: #AD0000;
   padding: 12px 16px;
   text-align: center;
@@ -61,12 +62,22 @@ color: white;
   transition-duration: 0.4s;
   cursor: pointer;
   margin-bottom: 2.75%;
-  margin-right: 2.75%;
+  margin-right: 2.75%;;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.nav-buttonhover:hover{
+    background-color: #AD0000;
+    color: white;
 }
 .buttons{
     align-items: center;
 }
 .cover-image{
-    width: ;
+    width: 85%;
     height: auto;
+}
+.instagram-media{
+    margin-left: 75%;
+    offset: 20%;
 }
