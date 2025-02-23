@@ -9,6 +9,7 @@ body {
    border-width: 2px;
    margin: 5px;
    background-color: #faf9f6;
+   border-radius: 15px;
   }
   
   .header {
@@ -64,7 +65,6 @@ body {
     color: white;
   }
   
-
   .nav-button {
     border: 2px solid #AD0000;
     color: #AD0000;
@@ -93,7 +93,6 @@ body {
   
   .instagram-media {
     float:right; display:flex;
-    padding: none; 
   }
   .notion-banner{
     padding: none;
@@ -107,14 +106,16 @@ body {
     padding: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    width: 85%;
+    width: 100%;
     border-radius: 9px;
   }
   .notion-embed{
     background-color: #faf9f6;
     padding-top: none;
     padding-top: 40px;
-    
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-bottom: 15px;
   }
   .about{
     padding-bottom: none;
@@ -122,4 +123,8 @@ body {
   .notion-iframe{
     position: relative;
    transform: translateX(2.5%);
+  }
+  .insta-position{
+    background-color: blue;
+    padding-left: 50px;
   }
