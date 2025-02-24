@@ -12,10 +12,7 @@ Now, how are you seeing it published as a website? Through Notion’s exporting 
 
 While I am a business student, I strongly believe in the use of technology for presentation of business related technical information, company goals, project management, and am excited to provide how it can be used throughout my campaign. 
 
+
 # Campaign Values Constituent
 
 [Instagram (@bivins4senate)](https://www.instagram.com/bivins4senate?igsh=cDlpdWQ3b3d5dW5m&utm_source=qr)
-
-[https://www.instagram.com/bivins4senate?igsh=cDlpdWQ3b3d5dW5m&utm_source=qr](https://www.instagram.com/bivins4senate?igsh=cDlpdWQ3b3d5dW5m&utm_source=qr) 
-
-https://www.instagram.com/bivins4senate?igsh=cDlpdWQ3b3d5dW5m&utm_source=qr
