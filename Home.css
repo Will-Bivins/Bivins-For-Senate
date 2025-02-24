@@ -133,4 +133,5 @@ body {
     width: 700px;
     background-color: black;
 padding: 5px;
+transform: translateX(50%);
   }
