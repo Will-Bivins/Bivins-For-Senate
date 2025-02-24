@@ -127,6 +127,9 @@ body {
   .insta-position{
     background-color: blue;
     padding-left: 50px;
+    width: auto;
+    height: 75%;
+    padding-top: 5px;
   }
   .survey-monkey{
     height: auto;
