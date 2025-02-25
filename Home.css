@@ -93,7 +93,6 @@ p {
 
 
 .notion-embed {
-  background-color: #faf9f6;
   margin-top: 40px;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -125,7 +124,9 @@ p {
   width: 700px;
   background-color: black;
   padding: 5px;
-  transform: translateX(50%);
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 10px;
 }
 
 
@@ -136,4 +137,97 @@ p {
 
 .preamble-total {
   margin-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.banner-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.button-overlay {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+header,
+nav,
+section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.notion-iframe {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.notion-iframe iframe {
+  width: 95%;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+
+.bodytext {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .button-overlay {
+    flex-direction: column;
+  }
+  
+  nav,
+  section {
+    padding: 10px;
+  }
+  
+  .bodytext {
+    padding: 5px;
+  }
 }
